@@ -7,7 +7,12 @@ const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./resources/swagger.json');
+const { errorHandler } = require('./handler/error/handler');
+
 module.exports = (db) => {
+  app.use('/v1/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+  app.use(errorHandler);
+
   app.get('/health', (req, res) => res.send('Healthy'));
 
   app.post('/rides', jsonParser, (req, res) => {
