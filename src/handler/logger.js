@@ -1,12 +1,12 @@
-const path = require('path');
 const { createLogger, format, transports } = require('winston');
+const path = require('path');
 
 const LOGGING_LEVEL = 'error';
 const logger = createLogger({
   level: LOGGING_LEVEL,
   format: format.combine(
     format.label({
-      label: path.basename(process.main.filename),
+      label: path.basename(process.mainModule.filename),
     }),
     format.timestamp({
       format: 'YYYY-MM-DD hh:mm:ss',
