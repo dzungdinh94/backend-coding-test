@@ -1,0 +1,35 @@
+config:
+  target: http://localhost:8010
+  phases:
+    - duration: 30
+      arrivalRate: 100
+  ensure:
+    p99: 50
+
+scenarios:
+  - name: "Load test POST rides"
+    flow:
+      - post:
+          url: "/rides"
+          json:
+            "start_lat": 11
+            "start_long": 24
+            "end_lat": 29
+            "end_long": 39
+            "rider_name": "DungZung"
+            "driver_name": "Dung"
+            "driver_vehicle": "Jeame"
+          expect:
+            - statusCode: 200
+  - name: "Load test GET rides"
+    flow:
+      - get:
+          url: "/rides"
+          expect:
+            - statusCode: 200
+  - name: "Load test GET rides/1"
+    flow:
+      - get:
+          url: "/rides/1"
+          expect:
+            - statusCode: 200
