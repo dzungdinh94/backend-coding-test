@@ -45,7 +45,6 @@ describe('RideController test cases', () => {
     };
     const responseMock = new DummyResponse();
     await rideControllerInstance.getRide(requestMock, responseMock, null);
-    console.log(responseMock.body)
     assert.deepStrictEqual(responseMock.body, { message: 'ID should be a positive number greater than 0'});
     assert.strictEqual(responseMock.code, HttpStatusCodes.StatusCodes.BAD_REQUEST);
   });

@@ -78,28 +78,28 @@ describe("Database query utility tests", () => {
 
     it("selectQuery should throw an error with invalid query", async () => {
       try {
-        await selectQuery(db, "testtesttest");
+        await selectQuery(db, "dungnd8954");
         assert.fail("selectQuery should throw an error");
       } catch (error) {}
     });
 
     it("updateQuery should throw an error with invalid query", async () => {
       try {
-        await updateQuery(db, "testtesttest");
+        await updateQuery(db, "dungnd8954");
         assert.fail("updateQuery should throw an error");
       } catch (error) {}
     });
 
     it("deleteQuery should throw an error with invalid query", async () => {
       try {
-        await deleteQuery(db, "testtesttest");
+        await deleteQuery(db, "dungnd8954");
         assert.fail("deleteQuery should throw an error");
       } catch (error) {}
     });
 
     it("insertQuery should throw an error with invalid query", async () => {
       try {
-        await insertQuery(db, "testtesttest");
+        await insertQuery(db, "dungnd8954");
         assert.fail("insertQuery should throw an error");
       } catch (error) {}
     });

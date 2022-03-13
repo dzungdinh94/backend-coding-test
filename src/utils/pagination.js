@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 /* eslint-disable no-multi-assign */
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable no-param-reassign */
@@ -11,7 +12,7 @@ exports = module.exports;
 
 exports.href = function href(req) {
   return function (prev, params) {
-    const query = clone(req.query);
+    let query = clone(req.query);
 
     if (typeof prev === 'object') {
       params = prev;
@@ -66,7 +67,7 @@ exports.getArrayPages = function (req) {
       const start = Math.max(1, currentPage < limit - 1 ? 1 : end - limit + 1);
 
       const pages = [];
-      for (let i = start; i <= end; i++) {
+      for (let i = start; i <= end; i += 1) {
         pages.push({
           number: i,
           url: exports

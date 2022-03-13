@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 const selectQuery = (db, query = '', values = []) => {
   const results = [];
 
@@ -25,8 +26,7 @@ const selectQuery = (db, query = '', values = []) => {
 };
 
 const insertQuery = (db, query = '', values = []) => new Promise((resolve, reject) => {
-  // eslint-disable-next-line prefer-arrow-callback
-  db.run(query, values, (insertErr) => {
+  db.run(query, values, function (insertErr) {
     if (insertErr) {
       return reject(insertErr);
     }
@@ -35,7 +35,6 @@ const insertQuery = (db, query = '', values = []) => new Promise((resolve, rejec
 });
 
 const deleteQuery = (db, query = '', values = []) => new Promise((resolve, reject) => {
-  // eslint-disable-next-line prefer-arrow-callback
   db.run(query, values, (deleteErr) => {
     if (deleteErr) {
       return reject(deleteErr);
@@ -46,7 +45,7 @@ const deleteQuery = (db, query = '', values = []) => new Promise((resolve, rejec
 
 const updateQuery = (db, query = '', values = []) => new Promise((resolve, reject) => {
   // eslint-disable-next-line prefer-arrow-callback
-  db.run(query, values, (updateErr) => {
+  db.run(query, values, function (updateErr) {
     if (updateErr) {
       return reject(updateErr);
     }
