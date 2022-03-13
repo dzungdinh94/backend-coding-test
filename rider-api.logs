@@ -883,3 +883,325 @@ ReferenceError: response is not defined
     at Server.emit (events.js:375:28)
     at parserOnIncoming (_http_server.js:897:12)
     at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:47:05 error [mocha]: uncaughtException: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+Error: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:331:14)
+    at Mocha.run (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:809:10)
+    at Object.exports.singleRun (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:108:16)
+    at exports.runMocha (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:142:13)
+    at Object.exports.handler (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run.js:292:3)
+    at Object.runCommand (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:1096:28)
+    at Object.parse (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:575:25)
+    at Object.exports.main (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/cli.js:68:6)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha:162:29)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+2022-03-13 04:48:02 error [mocha]: uncaughtException: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+Error: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:331:14)
+    at Mocha.run (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:809:10)
+    at Object.exports.singleRun (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:108:16)
+    at exports.runMocha (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:142:13)
+    at Object.exports.handler (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run.js:292:3)
+    at Object.runCommand (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:1096:28)
+    at Object.parse (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:575:25)
+    at Object.exports.main (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/cli.js:68:6)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha:162:29)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+2022-03-13 04:48:34 error [mocha]: uncaughtException: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+Error: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:331:14)
+    at Mocha.run (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:809:10)
+    at Object.exports.singleRun (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:108:16)
+    at exports.runMocha (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:142:13)
+    at Object.exports.handler (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run.js:292:3)
+    at Object.runCommand (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:1096:28)
+    at Object.parse (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:575:25)
+    at Object.exports.main (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/cli.js:68:6)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha:162:29)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+2022-03-13 02:39:54 error [mocha]: uncaughtException: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+Error: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:331:14)
+    at Mocha.run (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:809:10)
+    at Object.exports.singleRun (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:108:16)
+    at exports.runMocha (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:142:13)
+    at Object.exports.handler (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run.js:292:3)
+    at Object.runCommand (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:1096:28)
+    at Object.parse (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:575:25)
+    at Object.exports.main (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/cli.js:68:6)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha:162:29)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+2022-03-13 02:40:17 error [mocha]: uncaughtException: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+Error: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:331:14)
+    at Mocha.run (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:809:10)
+    at Object.exports.singleRun (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:108:16)
+    at exports.runMocha (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:142:13)
+    at Object.exports.handler (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run.js:292:3)
+    at Object.runCommand (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:1096:28)
+    at Object.parse (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:575:25)
+    at Object.exports.main (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/cli.js:68:6)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha:162:29)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+2022-03-13 02:40:35 error [mocha]: uncaughtException: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+Error: Cannot find module 'sinon'
+Require stack:
+- /Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/one-and-dones.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/options.js
+- /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:331:14)
+    at Mocha.run (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:809:10)
+    at Object.exports.singleRun (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:108:16)
+    at exports.runMocha (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:142:13)
+    at Object.exports.handler (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run.js:292:3)
+    at Object.runCommand (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:1096:28)
+    at Object.parse (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:575:25)
+    at Object.exports.main (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/cli.js:68:6)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha:162:29)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+2022-03-13 02:40:44 error [mocha]: uncaughtException: Unexpected token '}'
+/Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js:107
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at compileFunction (<anonymous>)
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:331:14)
+    at Mocha.run (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:809:10)
+    at Object.exports.singleRun (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:108:16)
+    at exports.runMocha (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:142:13)
+    at Object.exports.handler (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run.js:292:3)
+    at Object.runCommand (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:1096:28)
+    at Object.parse (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:575:25)
+    at Object.exports.main (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/cli.js:68:6)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/mocha:162:29)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+2022-03-13 02:43:44 error [_mocha]: uncaughtException: Unexpected token '}'
+/Users/dmr/Downloads/backend-coding-test-master/tests/databaseQuery.test.js:107
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at compileFunction (<anonymous>)
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:330:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:327:14)
+    at Mocha.run (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/mocha.js:804:10)
+    at Object.exports.singleRun (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:207:16)
+    at exports.runMocha (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run-helpers.js:300:13)
+    at Object.exports.handler (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/run.js:296:3)
+    at Object.runCommand (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:1087:28)
+    at Object.parse (/Users/dmr/Downloads/backend-coding-test-master/node_modules/yargs/yargs.js:566:25)
+    at Object.exports.main (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/lib/cli/cli.js:63:6)
+    at Object.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/node_modules/mocha/bin/_mocha:10:23)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
