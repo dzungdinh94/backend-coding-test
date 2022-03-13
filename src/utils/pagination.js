@@ -11,7 +11,7 @@ exports = module.exports;
 
 exports.href = function href(req) {
   return function (prev, params) {
-    let query = clone(req.query);
+    const query = clone(req.query);
 
     if (typeof prev === 'object') {
       params = prev;
