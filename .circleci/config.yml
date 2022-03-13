@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/node:14.17.3
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm test
+
+workflows:
+  version: 2
+
+  -deploy:
+    jobs:
+      - test
