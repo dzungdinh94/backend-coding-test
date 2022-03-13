@@ -45,8 +45,6 @@ class RideRepository {
 
   async save(rideEntity) {
     const rideInstance = new this.RideEntity();
-    // Use RiderEntity to verify model logic, e.g: lat should be between
-    // 90, etc.
     rideInstance
       .startLat(rideEntity.startLat)
       .startLong(rideEntity.startLong)

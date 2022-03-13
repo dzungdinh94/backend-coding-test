@@ -11,7 +11,6 @@ class RideController {
 
   async getRides(req, res, next) {
     const { page, limit } = req.query;
-    console.log(req.query)
     try {
       const results = await this.rideRepositoryInstance.getAll(page, limit);
       const totalCount = await this.rideRepositoryInstance.getTotalCount();

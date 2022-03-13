@@ -20,8 +20,7 @@ class RideEntity {
   startLat(startlat) {
     if (startlat < -90 || startlat > 90) {
       throw new Error(
-        'ModelError: startLat should be not be greater than 90 or less'
-          + ' than -90',
+        'ModelError: startLat should be not be greater than 90 or less than -90',
       );
     }
     this._startLat = startlat;

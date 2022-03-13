@@ -4,8 +4,9 @@ const app = express();
 
 const bodyParser = require('body-parser');
 
-const jsonParser = bodyParser.json();
+const jsonParser = bodyParser.json({ limit: '2kb' });
 const swaggerUi = require('swagger-ui-express');
+const helmet = require('helmet');
 const swaggerDocument = require('./resources/swagger.json');
 const { errorHandler } = require('./handler/error/handler');
 const paginate = require('./utils/pagination');
@@ -22,6 +23,7 @@ module.exports = (db) => {
     insertQuery,
   );
   const controller = new RideController(repository);
+  app.use(helmet());
   app.use('/v1/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
   app.use(paginate.middleware(10, 50));
   app.get('/health', (req, res) => res.send('Healthy'));

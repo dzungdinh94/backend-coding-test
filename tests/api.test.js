@@ -60,7 +60,7 @@ const assertRideValidationError = (
     .post("/rides")
     .send(body)
     .expect("Content-Type", /json/)
-    .expect(200)
+    .expect(400)
     .expect(validationError)
     .end(done);
 };
@@ -122,6 +122,22 @@ describe("API tests", () => {
     });
 
     describe("GET /rides", () => {
+      it("should return a response with pre-set headers from helmet", (done) => {
+        request(app)
+          .get("/rides")
+          .expect("Content-Type", /json/)
+          .expect(200)
+          .expect("X-XSS-Protection", "0")
+          .expect("X-DNS-Prefetch-Control", "off")
+          .expect("X-Content-Type-Options", "nosniff")
+          .expect("Expect-CT", "max-age=0")
+          .expect("X-Download-Options", "noopen")
+          .expect(
+            "Content-Security-Policy",
+            "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+          )
+          .end(done);
+      });
       it("should return exactly 10 rides given no limit query parameter", (done) => {
         const limit = 10;
         request(app)
@@ -192,6 +208,159 @@ describe("API tests", () => {
             .end(done);
         }
       );
+    });
+
+    describe("GET /rides/${id}", () => {
+      it("should return a response with pre-set headers from helmet", (done) => {
+        request(app)
+          .get("/rides/2")
+          .expect("Content-Type", /json/)
+          .expect(200)
+          .expect("X-DNS-Prefetch-Control", "off")
+          .expect("Expect-CT", "max-age=0")
+          .expect("X-Download-Options", "noopen")
+          .expect("X-Content-Type-Options", "nosniff")
+          .expect("X-XSS-Protection", "0")
+          .expect(
+            "Content-Security-Policy",
+            "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+            done
+          );
+      });
+      it("should return ride id of 2", (done) => {
+        request(app)
+          .get("/rides/2")
+          .expect("Content-Type", /json/)
+          .expect(200)
+          .expect((response) => {
+            const [actualRideTwo] = response.body;
+            assertRideEntity(rideEntities[1], actualRideTwo);
+          })
+          .end(done);
+      });
+    });
+
+    describe("POST /rides", () => {
+      it("should return a response with pre-set headers from helmet", (done) => {
+        const body = rideEntities[2];
+        request(app)
+          .post("/rides")
+          .send(body)
+          .expect("Content-Type", /json/)
+          .expect(200)
+          .expect("X-DNS-Prefetch-Control", "off")
+          .expect("Expect-CT", "max-age=0")
+          .expect("X-Download-Options", "noopen")
+          .expect("X-Content-Type-Options", "nosniff")
+          .expect("X-XSS-Protection", "0")
+          .expect(
+            "Content-Security-Policy",
+            "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+            done
+          );
+      });
+
+      it("should create a new ride", (done) => {
+        const body = rideEntities[2];
+        request(app)
+          .post("/rides")
+          .send(body)
+          .expect("Content-Type", /json/)
+          .expect(200)
+          .expect((response) => {
+            const [actualRide] = response.body;
+            assertRideEntity(body, actualRide);
+          })
+          .end(done);
+      });
+
+      describe("validation errors for start latitude", () => {
+        it(
+          "should give validation error for start latitude greater" +
+            " than 90",
+          (done) => {
+            const propertyWithError = { start_lat: 91 };
+            assertRideValidationError(
+              propertyWithError,
+              {
+                message:
+                  "ModelError: startLat should be not be greater than 90 or less than -90",
+              },
+              done
+            );
+          }
+        );
+
+        it("should give validation error for start latitude lower than -90", (done) => {
+          const propertyWithError = { start_lat: -91 };
+          assertRideValidationError(
+            propertyWithError,
+            {
+              message:
+                "ModelError: startLat should be not be greater than 90 or less than -90",
+            },
+            done
+          );
+        });
+      });
+
+      describe("validation errors for start longitude", () => {
+        it("should give validation error for start longitude greater than 180", (done) => {
+          const propertyWithError = { start_long: 181 };
+          assertRideValidationError(
+            propertyWithError,
+            {
+              message:
+                "ModelError: startLong should be not be greater than 180" +
+                " or less than -180",
+            },
+            done
+          );
+        });
+
+        it("should give validation error for start longitude lower than -180", (done) => {
+          const propertyWithError = { start_long: -181 };
+          assertRideValidationError(
+            propertyWithError,
+            {
+              message:
+                "ModelError: startLong should be not be greater than 180" +
+                " or less than -180",
+            },
+            done
+          );
+        });
+      });
+
+      describe("validation errors for rider name", () => {
+        it("should give validation error for empty string rider name", (done) => {
+          const validationError = {
+            message: "rider_name must be a non-empty string",
+          };
+          const propertyWithError = { rider_name: "" };
+          assertRideValidationError(propertyWithError, validationError, done);
+        });
+      });
+
+      describe("validation errors for driver name", () => {
+        it("should give validation error for empty string driver name", (done) => {
+          const validationError = {
+            message: "driver_name must be a non-empty string",
+          };
+          const propertyWithError = { driver_name: "" };
+          assertRideValidationError(propertyWithError, validationError, done);
+        });
+      });
+
+      describe("validation errors for driver vehicle", () => {
+        it("should give validation error for empty string driver vehicle", (done) => {
+          const validationError = {
+            message: "driver_vehicle must be a non-empty string",
+          };
+          const propertyWithError = { driver_vehicle: "" };
+          assertRideValidationError(propertyWithError, validationError, done);
+        });
+      });
     });
   });
 });
