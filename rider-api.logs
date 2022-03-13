@@ -1,0 +1,885 @@
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:12:22 error [_mocha]: Error . [object Object]
+2022-03-12 04:15:00 error [index.js]: Error . undefined
+2022-03-12 04:15:06 error [index.js]: Error . undefined
+2022-03-12 04:15:13 error [index.js]: Error . undefined
+2022-03-12 04:15:14 error [index.js]: Error . undefined
+2022-03-12 04:15:35 error [index.js]: Error . [object Object]
+2022-03-12 04:15:54 error [index.js]: Error . [object Object]
+2022-03-12 04:16:35 error [index.js]: Error . [object Object]
+2022-03-12 04:16:46 error [index.js]: Error . [object Object]
+2022-03-12 04:17:39 error [index.js]: Error . [object Object]
+2022-03-12 04:17:56 error [index.js]: Error . [object Object]
+2022-03-12 04:18:11 error [index.js]: Error . [object Object]
+2022-03-12 04:18:38 error [index.js]: Error . [object Object]
+2022-03-12 04:18:55 error [index.js]: Error . [object Object]
+2022-03-12 04:19:34 error [index.js]: Error . [object Object]
+2022-03-12 04:19:51 error [index.js]: Error . [object Object]
+2022-03-12 04:20:25 error [index.js]: Error . [object Object]
+2022-03-13 03:54:49 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:138:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:55:01 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:55:26 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:55:43 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:55:54 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:56:25 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:138:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:57:14 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:138:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:57:34 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:138:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:57:47 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:138:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:57:58 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:58:13 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:58:31 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:58:33 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 03:59:40 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:137:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ? OFFSET ?', [ 10, 0 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:115:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:04:24 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:138:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 9 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:116:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:05:17 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:139:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 9 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:117:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:07:34 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:139:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 9 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:117:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:08:12 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:140:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 9 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:118:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:08:28 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:141:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 9 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:118:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:08:52 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:141:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 10 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:118:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:09:15 error [_mocha]: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:69:40
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:138:43)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 10 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:116:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:09:43 error [_mocha]: uncaughtException: response is not defined
+ReferenceError: response is not defined
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:144:16)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 10 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:116:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+2022-03-13 04:10:15 error [_mocha]: uncaughtException: response is not defined
+ReferenceError: response is not defined
+    at Statement.<anonymous> (/Users/dmr/Downloads/backend-coding-test-master/src/app.js:144:16)
+--> in Database#all('SELECT * FROM Rides LIMIT ?,?', [ 0, 10 ], [Function (anonymous)])
+    at /Users/dmr/Downloads/backend-coding-test-master/src/app.js:116:8
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at _middleware (/Users/dmr/Downloads/backend-coding-test-master/src/utils/pagination.js:113:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at query (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:317:13)
+    at /Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/application.js:174:10)
+    at Server.app (/Users/dmr/Downloads/backend-coding-test-master/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:375:28)
+    at parserOnIncoming (_http_server.js:897:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)

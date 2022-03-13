@@ -8,11 +8,11 @@ const jsonParser = bodyParser.json();
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./resources/swagger.json');
 const { errorHandler } = require('./handler/error/handler');
+const paginate = require('./utils/pagination');
 
 module.exports = (db) => {
   app.use('/v1/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-  app.use(errorHandler);
-
+  app.use(paginate.middleware(10, 50));
   app.get('/health', (req, res) => res.send('Healthy'));
 
   app.post('/rides', jsonParser, (req, res) => {
@@ -110,8 +110,10 @@ module.exports = (db) => {
     );
   });
 
-  app.get('/rides', (req, res) => {
-    db.all('SELECT * FROM Rides', (err, rows) => {
+  app.get('/rides', (req, res, next) => {
+    const start = (req.query.page - 1) * req.query.limit;
+    const end = req.query.page * req.query.limit;
+    db.all('SELECT * FROM Rides LIMIT ?,?', [start, end], (err, results) => {
       if (err) {
         return res.send({
           error_code: 'SERVER_ERROR',
@@ -119,14 +121,33 @@ module.exports = (db) => {
         });
       }
 
-      if (rows.length === 0) {
+      if (results.length === 0) {
         return res.send({
           error_code: 'RIDES_NOT_FOUND_ERROR',
           message: 'Could not find any rides',
         });
       }
+      db.all('SELECT COUNT(*) as count FROM Rides', (countError, rows) => {
+        if (countError) {
+          return next(countError);
+        }
 
-      res.send(rows);
+        const totalCount = rows[0].count;
+        console.log(totalCount)
+        const pageCount = Math.ceil(totalCount / req.query.limit);
+        const response = {
+          results,
+          pageCount,
+          has_more: paginate.hasNextPages(req)(pageCount),
+          itemCount: totalCount,
+          pages: paginate.getArrayPages(req)(
+            req.query.limit,
+            pageCount,
+            req.query.page,
+          ),
+        };
+        res.send(response);
+      });
     });
   });
 
@@ -152,6 +173,7 @@ module.exports = (db) => {
       },
     );
   });
+  app.use(errorHandler);
 
   return app;
 };
